@@ -1,0 +1,92 @@
+body.navActive .sideNavBar .sideBarOpts .expand.open .header:hover {
+    background-color: #acbccf33 !important;
+}
+
+body.navActive .sideNavBar {
+    padding-bottom: 25px;
+    z-index: 1003;
+}
+
+body.navActive .sideNavBar .hambMenu {
+    width: 40px;
+}
+
+
+body.navActive .sideNavBar .sideBarOpts {
+    text-align: right !important;
+}
+
+body:not(.navActive) .sideNavBar .sideBarOpts .ph25.lh40 {
+    padding: 0px;
+}
+
+body:not(.navActive) .sideNavBar .sideBarOpts .mbt {
+    display: none;
+}
+
+body:not(.navActive) .sideNavBar .sideBarOpts .mr10 {
+    margin: 0px;
+}
+
+body.navActive .sideNavBar .sideBarOpts .expand.open .header,
+body.navActive .sideNavBar .sideBarOpts .expand.open .content {
+    background-color: rgb(255, 255, 255, 5%);
+}
+
+body.navActive .sideNavBar .sideBarOpts .mdi-chevron-down {
+    display: inline-block;
+}
+
+body.navActive .sideNavBar .sideBarOpts .expand.open .header .mdi-chevron-down::before {
+    transform: rotate(180deg);
+}
+
+body.navActive .sideNavBar .sideBarOpts .expand.open .header span:first-of-type {
+    display: none;
+}
+
+body.navActive .sideNavBar .sideBarOpts .expand.open .content {
+    display: block;
+}
+
+body.navActive .sideNavBar>div:first-child {
+    margin-top: 0;
+    text-align: left;
+}
+
+body.navActive .sideNavBar .sideNavBarHeader {
+    display: inline-block;
+}
+
+body.navActive .sideNavBar .sideNavBarHeader~div:first-of-type {
+    width: 20%;
+}
+
+body.navActive .sideNavBar {
+    width: 250px;
+}
+
+body.navActive .main-div {
+    margin-right: 250px;
+}
+
+@media screen and (max-width: 768px) {
+
+    body.navActive .overlay {
+        display: block;
+    }
+
+    body.navActive .main-div {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body.navActive .main-dashbaord {
+        margin-right: 250px;
+    }
+
+    body.navActive .nav-top {
+        right: 250px !important;
+    }
+}
