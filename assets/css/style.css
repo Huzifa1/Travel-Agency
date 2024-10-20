@@ -87,17 +87,17 @@ a {
 
 @font-face {
     font-family: "GE SS Two Light";
-    src: url("/assets/fonts/02f502e5eefeb353e5f83fc5045348dc.eot");
+    src: url("/Travel-Agency/assets/fonts/02f502e5eefeb353e5f83fc5045348dc.eot");
     /* IE9*/
-    src: url("/assets/fonts/02f502e5eefeb353e5f83fc5045348dc.eot?#iefix") format("embedded-opentype"),
+    src: url("/Travel-Agency/assets/fonts/02f502e5eefeb353e5f83fc5045348dc.eot?#iefix") format("embedded-opentype"),
         /* IE6-IE8 */
-        url("/assets/fonts/02f502e5eefeb353e5f83fc5045348dc.woff2") format("woff2"),
+        url("/Travel-Agency/assets/fonts/02f502e5eefeb353e5f83fc5045348dc.woff2") format("woff2"),
         /* chrome firefox */
-        url("/assets/fonts/02f502e5eefeb353e5f83fc5045348dc.woff") format("woff"),
+        url("/Travel-Agency/assets/fonts/02f502e5eefeb353e5f83fc5045348dc.woff") format("woff"),
         /* chrome firefox */
-        url("/assets/fonts/02f502e5eefeb353e5f83fc5045348dc.ttf") format("truetype"),
+        url("/Travel-Agency/assets/fonts/02f502e5eefeb353e5f83fc5045348dc.ttf") format("truetype"),
         /* chrome firefox opera Safari, Android, iOS 4.2+*/
-        url("/assets/fonts/02f502e5eefeb353e5f83fc5045348dc.svg#GE SS Two Light") format("svg");
+        url("/Travel-Agency/assets/fonts/02f502e5eefeb353e5f83fc5045348dc.svg#GE SS Two Light") format("svg");
     /* iOS 4.1- */
     /* unicode-range: U+0020-U+0029,U+0040-FEFF; */
     /*unicode-range: U+0030-0039; Numbers Only*/
